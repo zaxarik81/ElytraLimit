@@ -21,7 +21,7 @@ mvn clean package
 
 ## Установка
 
-Скопируйте `target/ElytraLimit.jar` в папку `plugins` сервера и запустите сервер. Конфигурация будет создана в `plugins/ElytraLimit/config.yml`.
+Готовый JAR можно скачать прямо из репозитория: [ElytraLimit.jar](ElytraLimit.jar). Также его можно собрать самостоятельно командой выше. Скопируйте JAR в папку `plugins` сервера и запустите сервер. Конфигурация будет создана в `plugins/ElytraLimit/config.yml`.
 
 ## Настройка
 
