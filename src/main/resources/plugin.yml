@@ -1,0 +1,20 @@
+name: ElytraLimit
+version: 1.0.0
+main: com.example.elytralimit.ElytraLimit
+api-version: '1.21.11'
+description: Ограничение горизонтальной и вертикальной скорости полёта на элитрах.
+author: zaxarik81
+
+commands:
+  elytralimit:
+    description: Управление ElytraLimit.
+    usage: /elytralimit reload
+    permission: elytralimit.admin
+
+permissions:
+  elytralimit.admin:
+    description: Перезагрузка конфигурации ElytraLimit.
+    default: op
+  elytralimit.bypass:
+    description: Игнорирование ограничений ElytraLimit.
+    default: false
